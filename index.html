@@ -11,10 +11,65 @@
 
 <body>
 
-  <div class = "container">
+  <div class="gradient">
+    <div class = "container">
 
+      <div class="jumbotron" id="titleJumbotron">
+        <h1>CELEBRITY DATER</h1>
+      </div>
+
+      <img src="img/barryo.png" id="barryo" class="celebrity">
+      <img src="img/beyonce.png" id="beyonce" class="celebrity">
+      <img src="img/gates.png" id="gates" class="celebrity">
+      <img src="img/madonna.png" id="madonna" class="celebrity">
+      <img src="img/malkin.png" id="malkin" class="celebrity">
+      <img src="img/miley.png" id="miley" class="celebrity">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+        </div>
+        <div class="panel-body">
+          <form id="userInfo">
+            <div class="form-group form-group-lg">
+              <label for="userName">Your name:</label>
+              <input type="text" placeholder="Enter name" id="userName">
+            </div>
+            <div class="form-group form-mgroup-lg">
+              <label for="userBorn">Date of birth:</label>
+              <input id="userBorn" class="form-control" type="date">
+            </div>
+            <div class="form-group form-mgroup-lg">
+              <label for="userColor">Pick a color:</label>
+              <select class="form-control" id="userColor">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>Black</option>
+              </select>
+            </div>
+
+            <div id="radioDiv">
+              <label class="radio-inline">
+                <input type="radio" name="gender" value="male">Male
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="gender" value="female">Female
+              </label>
+            </div>
+
+            <button class="btn-submit" type="submit">FIND ME A CELEBRITY!</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
   </div>
 
 </body>
 
 </html>
+
+
+<!-- <img src="img/barryo.png">
+<img src="img/gates.png">
+<img src="img/malkin.png"> -->

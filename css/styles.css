@@ -1,7 +1,55 @@
-body {
-  background: linear-gradient(to bottom right, red, yellow);
+html, body {
+    height:100%;
+}
+
+.gradient {
+  background: linear-gradient(to bottom right, #C38D9E, #41B3A3);
+  min-height: 100%;
+  margin: auto;
 }
 
 .container {
   background-color: rgb(255, 0, 0, 0.5);
 }
+
+#titleJumbotron {
+  border-radius: 12px;
+  background: linear-gradient(to bottom right, #41B3A3, #C38D9E);
+  color: #fff;
+  text-shadow: 5px 5px #C38D9E;
+  text-align: center;
+}
+
+img {
+  width: 160px;
+}
+
+.btn-submit {
+  border-radius: 30px;
+  border-width: 5px;
+  color: #fff;
+  padding: 15px;
+  background-color: #C38D9E;
+  border-color: #E27D60;
+  margin-top: 30px;
+}
+
+.panel {
+  width: 500px;
+}
+
+.btn-submit:hover {
+  background-color: #E27D60;
+  border-color: #C38D9E;
+}
+
+.celebrity {
+  display: none;
+}
+/*
+#E27D60 - orangeish
+#85DCBB - cyanish light
+#E8A87C - orangeish light
+#C38D9E - pastel pinkish
+#41B3A3 - cyanish dark
+*/
